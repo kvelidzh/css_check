@@ -13,8 +13,10 @@ body {
 }
 
 .container {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	position: relative;
-	/* margin: 0; */
 	height: 400px;
 	max-width: 400px;
     background-color:  #E6E6FA;
@@ -28,7 +30,6 @@ background-position: 0 0, 50px 50px;
 	display: inline-block;
 	width: 40px;
 	height: 40px;
-	/* background: #000; */
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -40,9 +41,6 @@ background-position: 0 0, 50px 50px;
 	box-shadow: 0 0 15px rgba(0,0,0,1);
 }
 
-/* .row {
-	position: relative;
-} */
 
 .piece--white {
 	background: #FFE4C4;
@@ -169,10 +167,3 @@ background-position: 0 0, 50px 50px;
 	bottom: 106px;
 	left: 305px;
 }
-
-
-
-
-
-
-	
